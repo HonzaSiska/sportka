@@ -63,6 +63,7 @@ const addColumn = (e) => {
 
     //console.log(arrayOfColumns.length, " length")
     if(arrayOfColumns.length > 7) {
+        columnCounter++;
         drawNumbers();
         displayNumbers(btnWrapper)
         columnCounter = 0;
@@ -80,7 +81,7 @@ const addColumn = (e) => {
         <span id="pridej-sloupec">pridej sloupec</span>
     </div>`;
     newAddButton.innerHTML = newButtonContent;
-     columnCounter++;
+    columnCounter++;
     drawNumbers();
     displayNumbers(btnWrapper)
 
