@@ -18,7 +18,7 @@ const drawNumbers = () => {
 
     let numbersInColumn = [];
 
-    while(numbersInColumn.length < 7){
+    while(numbersInColumn.length < 6){
 
         let newNumber = Math.floor(Math.random()*49);
 
